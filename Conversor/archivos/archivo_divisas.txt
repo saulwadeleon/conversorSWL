@@ -1,0 +1,198 @@
+AFN,Afganistán,Afghani afgano,؋
+XAF,África Central,Franco CFA de África Central,FCFA
+XOF,África Occidental,Franco CFA de África Occidental,CFA
+ALL,Albania,Lek albanés,L
+DEM,Alemania,Marco alemán,DEM
+AOA,Angola,Kwanza angoleño,Kz
+ANG,Antillas Neerlandesas,Florín de las Antillas Neerlandesas,ƒ
+SAR,Arabia Saudita,Riyal saudí,﷼
+DZD,Argelia,Dinar argelino,دج
+ARS,Argentina,Peso argentino,$
+AMD,Armenia,Dram armenio,դր
+AWG,Aruba,Florín de Aruba,ƒ
+AUD,Australia,Dólar australiano,$
+ATS,Austria,Chelín austriaco,ÖS
+AZN,Azerbaiyán,Manat azerí,ман
+BSD,Bahamas,Dólar bahameño,$
+BDT,Bangladés,Taka bangladesí,৳
+BBD,Barbados,Dólar de Barbados,$
+BHD,Baréin,Dinar bahreiní,.د.ب
+BEF,Bélgica,Franco belga,BEF
+BZD,Belice,Dólar beliceño,BZ$
+BMD,Bermudas,Dólar bermudeño,$
+BYN,Bielorrusia,Rublo bielorruso,Br
+BYR,Bielorrusia,Rublo bielorruso,p.
+BTC,Bitcoin,Bitcoin,฿
+BOB,Bolivia,Boliviano,$b
+BAM,Bosnia y Herzegovina,Marco convertible de Bosnia y Herzegovina,KM
+BWP,Botsuana,Pula botsuano,P
+BRL,Brasil,Real brasileño,R$
+BND,Brunéi,Dólar de Brunéi,$
+BGN,Bulgaria,Lev búlgaro,лв
+BIF,Burundi,Franco de Burundi,FBu
+BTN,Bután,Ngultrum butanés,Nu.
+CVE,Cabo Verde,Escudo caboverdiano,$
+KHR,Camboya,Riel camboyano,៛
+CAD,Canadá,Dólar canadiense,$
+XCD,Caribe Oriental,Dólar del Caribe Oriental,$
+QAR,Catar,Riyal catarí,﷼
+CLF,Chile,Unidad de Fomento chilena,UF
+CLP,Chile,Peso chileno,$
+CNH,China,Yuan chino (offshore),CNH
+CNY,China,Yuan chino,¥
+CYP,Chipre,Libra chipriota,£
+VAL,Ciudad del Vaticano,Lira vaticana,VAL
+COP,Colombia,Peso colombiano,$
+KMF,Comoras,Franco comorense,CF
+KPW,Corea del Norte,Won norcoreano,₩
+KRW,Corea del Sur,Won surcoreano,₩
+CRC,Costa Rica,Colón costarricense,₡
+HRK,Croacia,Kuna croata,kn
+CUC,Cuba,Peso cubano convertible,CUC
+CUP,Cuba,Peso cubano,₱
+DKK,Dinamarca,Corona danesa,kr
+EGP,Egipto,Libra egipcia,£
+SVC,El Salvador,Colón salvadoreño,C$
+AED,Emiratos Árabes Unidos,Dirham de los Emiratos Árabes Unidos,د.إ
+ERN,Eritrea,Nakfa eritreo,Nkf
+SKK,Eslovaquia,Corona eslovaca,SKK
+SIT,Eslovenia,Tólar esloveno,SIT
+ESP,España,Peseta española,ESP
+USD,Estados Unidos,Dólar estadounidense,$
+EEK,Estonia,Corona estonia,kr
+ETB,Etiopía,Birr etíope,Br
+PHP,Filipinas,Peso filipino,₱
+FIM,Finlandia,Marca finlandesa,FIM
+FJD,Fiyi,Dólar fiyiano,$
+XDR,Fondo Monetario Internacional,Derechos especiales de giro,XDR
+FRF,Francia,Franco francés,FRF
+GMD,Gambia,Dalasi gambiano,D
+GEL,Georgia,Lari georgiano,ლ
+GHS,Ghana,Cedi ghanés,₵
+GIP,Gibraltar,Libra de Gibraltar,£
+GRD,Grecia,Dracma griega,GRD
+GTQ,Guatemala,Quetzal guatemalteco,Q
+GGP,Guernsey,Libra de Guernsey,£
+GNF,Guinea,Franco guineano,FG
+GYD,Guyana,Dólar guyanés,$
+HTG,Haití,Gourde haitiano,G
+HNL,Honduras,Lempira hondureño,L
+HKD,Hong Kong,Dólar de Hong Kong,$
+HUF,Hungría,Forinto húngaro,Ft
+INR,India,Rupia india,₹
+IDR,Indonesia,Rupia indonesia,Rp
+CPI,Internacional,CriptoPeso,CPI
+XAG,Internacional,Plata Troy,XAG
+XAU,Internacional,Oro Troy,XAU
+XCP,Internacional,Precio de las criptomonedas,XCP
+XPD,Internacional,Paladio Troy,XPD
+XPT,Internacional,Platino Troy,XPT
+IQD,Irak,Dinar iraquí,ع.د
+IRR,Irán,Rial iraní,﷼
+IEP,Irlanda,Libra irlandesa,IEP
+IMP,Isla de Man,Libra manesa,£
+ISK,Islandia,Corona islandesa,kr
+KYD,Islas Caimán,Dólar caimanés,$
+FKP,Islas Malvinas,Libra malvinense,£
+SBD,Islas Salomón,Dólar de las Islas Salomón,$
+ILS,Israel,Shekel israelí,₪
+ITL,Italia,Lira italiana,ITL
+JMD,Jamaica,Dólar jamaiquino,J$
+JPY,Japón,Yen japonés,¥
+JEP,Jersey,Libra de Jersey,£
+JOD,Jordania,Dinar jordano,د.ا
+KZT,Kazajistán,Tenge kazajo,лв
+KES,Kenia,Chelín keniano,KSh
+KGS,Kirguistán,Som kirguís,лв
+KWD,Kuwait,Dinar kuwaití,د.ك
+LAK,Laos,Kip laosiano,₭
+LSL,Lesoto,Loti lesothense,L
+LVL,Letonia,Lats letón,Ls
+LBP,Líbano,Libra libanesa,£
+LRD,Liberia,Dólar liberiano,$
+LYD,Libia,Dinar libio,ل.د
+LTL,Lituania,Litas lituano,Lt
+LUF,Luxemburgo,Franco luxemburgués,LUF
+MOP,Macao,Pataca de Macao,P
+MKD,Macedonia del Norte,Denar macedonio,ден
+MGA,Madagascar,Ariary malgache,Ar
+MYR,Malasia,Ringgit malayo,RM
+MWK,Malaui,Kwacha malauí,MK
+MVR,Maldivas,Rufiyaa maldiva,Rf
+MTL,Malta,Lira maltesa,MTL
+MAD,Marruecos,Dirham marroquí,د.م.
+MUR,Mauricio,Rupia mauriciana,₨
+MRO,Mauritania,Ouguiya mauritano,UM
+MRU,Mauritania,Ouguiya mauritano,UM
+MXN,México,Peso mexicano,$
+MDL,Moldavia,Leu moldavo,MDL
+MCF,Mónaco,Franco monegasco,MCF
+MNT,Mongolia,Tugrik mongol,₮
+MZN,Mozambique,Metical mozambiqueño,MT
+MMK,Myanmar,Kyat birmano,Ks
+NAD,Namibia,Dólar namibio,$
+NPR,Nepal,Rupia nepalesa,₨
+NIO,Nicaragua,Córdoba nicaragüense,C$
+NGN,Nigeria,Naira nigeriano,₦
+NOK,Noruega,Corona noruega,kr
+NZD,Nueva Zelanda,Dólar neozelandés,$
+OMR,Omán,Rial omaní,﷼
+NLG,Países Bajos,Florín neerlandés,ƒ
+PKR,Pakistán,Rupia pakistaní,₨
+PAB,Panamá,Balboa panameño,B/.
+PGK,Papúa Nueva Guinea,Kina papuana,K
+PYG,Paraguay,Guaraní paraguayo,Gs
+PEN,Perú,Sol peruano,S/.
+XPF,Polinesia Francesa,Franco CFP,F
+PLN,Polonia,Zloty polaco,zł
+PTE,Portugal,Escudo portugués,PTE
+GBP,Reino Unido,Libra esterlina,£
+CZK,República Checa,Corona checa,Kč
+CDF,República Democrática del Congo,Franco congoleño,FC
+DOP,República Dominicana,Peso dominicano,RD$
+RWF,Ruanda,Franco ruandés,FRw
+RON,Rumania,Leu rumano,lei
+RUB,Rusia,Rublo ruso,руб
+WST,Samoa,Tala samoano,T
+SML,San Marino,Lira sanmarinense,SML
+SHP,Santa Elena,Libra de Santa Elena,£
+STD,Santo Tomé y Príncipe,Dobra santotomense,Db
+STN,Santo Tomé y Príncipe,Dobra santotomense,Db
+RSD,Serbia,Dinar serbio,Дин.
+SCR,Seychelles,Rupia seychellense,₨
+SLL,Sierra Leona,Leone sierraleonés,Le
+SGD,Singapur,Dólar singapurense,$
+SYP,Siria,Libra siria,£
+SOS,Somalia,Chelín somalí,S
+LKR,Sri Lanka,Rupia de Sri Lanka,₨
+SZL,Suazilandia,Lilangeni suazi,L
+ZAR,Sudáfrica,Rand sudafricano,R
+SDG,Sudán,Libra sudanesa,£
+SSP,Sudán del Sur,Libra sursudanesa,£
+SEK,Suecia,Corona sueca,kr
+CHF,Suiza,Franco suizo,CHF
+SRD,Surinam,Dólar surinamés,$
+THB,Tailandia,Baht tailandés,฿
+TWD,Taiwán,Nuevo dólar taiwanés,NT$
+TZS,Tanzania,Chelín tanzano,TSh
+TJS,Tayikistán,Somoni tayiko,SM
+TOP,Tonga,Paʻanga tongano,T$
+TTD,Trinidad y Tobago,Dólar de Trinidad y Tobago,TT$
+TND,Túnez,Dinar tunecino,د.ت
+TMT,Turkmenistán,Manat turcomano,TMT
+TRY,Turquía,Lira turca,₺
+UAH,Ucrania,Grivna ucraniana,₴
+UGX,Uganda,Chelín ugandés,USh
+EUR,Unión Europea,Euro,€
+UYU,Uruguay,Peso uruguayo,$U
+UZS,Uzbekistán,Som uzbeko,лв
+VUV,Vanuatu,Vatu vanuatuense,Vt
+VEB,Venezuela,Bolívar venezolano (1871-2008),VEB
+VEF,Venezuela,Bolívar venezolano (2008-2018),Bs
+VES,Venezuela,Bolívar soberano venezolano,Bs.
+VND,Vietnam,Dong vietnamita,₫
+YER,Yemen,Rial yemení,﷼
+DJF,Yibuti,Franco de Yibuti,Fdj
+ZMK,Zambia,Kwacha zambiano (1968-2012),ZMK
+ZMW,Zambia,Kwacha zambiano,ZMW
+ZWL,Zimbabue,Dólar zimbabuense (2009),ZWL
