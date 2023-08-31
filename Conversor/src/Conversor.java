@@ -1,16 +1,6 @@
-import java.awt.Color;
-import java.awt.Cursor;
-import java.awt.Dimension;
-import java.awt.EventQueue;
-import java.awt.Font;
-import java.awt.GridLayout;
-import java.awt.Toolkit;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
+import java.awt.*;
+import java.awt.event.*;
+
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.io.IOException;
@@ -23,19 +13,8 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import javax.swing.ImageIcon;
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.SwingConstants;
-import javax.swing.UIManager;
-import javax.swing.WindowConstants;
-import javax.swing.text.AbstractDocument;
-import javax.swing.text.AttributeSet;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.DocumentFilter;
+import javax.swing.*;
+import javax.swing.text.*;
 
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -46,20 +25,11 @@ import org.jfree.data.xy.XYDataset;
 import com.formdev.flatlaf.FlatLightLaf;
 import com.toedter.calendar.JCalendar;
 
-import divisas.BanderaRenderer;
-import divisas.Divisas;
-import divisas.JTextFieldConMargen;
-import divisas.OperacionComboBox;
-import divisas.SetDivisas;
-import divisas.TasaCambio;
+import divisas.*;
 import interfacesDivisas.CargaDivisas;
 import longitud.Longitud;
 import longitud.Longitud.UnidadDesconocidaException;
-import serviciosDivisas.CargaArchivoDivisas;
-import serviciosDivisas.CargaTasaCambioAPI;
-import serviciosDivisas.ConversorDivisas;
-import serviciosDivisas.GraficaConversor;
-import serviciosDivisas.ValidadorEntradaNumerica;
+import serviciosDivisas.*;
 import superficie.Superficie;
 
 @SuppressWarnings("serial")
@@ -114,6 +84,14 @@ public class Conversor extends JFrame {
 		setIconImage(Toolkit.getDefaultToolkit().getImage("imagenes/menus/icono.png"));
 		setTitle("Conversor by Saul Wade");
 		initialize();
+		
+        // Agregar un listener para manejar el cierre del JFrame
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                confirmarSalida();
+            }
+        });
 	}
 
 	/**
@@ -122,7 +100,7 @@ public class Conversor extends JFrame {
 	private void initialize() {
 
 		setResizable(false);
-		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE); // Evitamos el cierre por defecto
 		setBounds(0, 0, 900, 640);
 		panelContenido = new JPanel();
 		panelContenido.setBackground(new Color(17, 19, 22));
@@ -914,6 +892,7 @@ public class Conversor extends JFrame {
 			String parentesisDestino = matcherDestino.group(1);
 
 			try {
+				// double cantidad = obtenerCantidad();
 				Superficie superficie = new Superficie(cantidadSupOrigen, parentesisOrigen);
 				double valorConvertido = superficie.convertirA(parentesisDestino);
 				textField_Sa.setText(String.valueOf(valorConvertido));
@@ -929,6 +908,19 @@ public class Conversor extends JFrame {
 			textField_Sa.setText("Unidad desconocida");
 			lblResultadoS.setText(""); // Limpiar el resultado en caso de error
 		}
+		
+		/*
+		 * // Preguntamos al usuario si desea continuar int respuesta =
+		 * JOptionPane.showConfirmDialog(null, "¿Desea continuar usando el programa?",
+		 * "Continuar o Finalizar", JOptionPane.YES_NO_CANCEL_OPTION);
+		 * 
+		 * if (respuesta == JOptionPane.YES_OPTION) { // Regresar al menú principal
+		 * (puede implementarse según tu estructura) JOptionPane.showMessageDialog(null,
+		 * "Volviendo al Menú Principal..."); } else {
+		 * JOptionPane.showMessageDialog(null, "Programa Finalizado."); System.exit(0);
+		 * }
+		 */
+    
 	}
 
 	// Método para actualizar la conversión de longitudes en tiempo real
@@ -962,6 +954,19 @@ public class Conversor extends JFrame {
 			textField_Disa.setText("Unidad desconocida");
 			lblResultadoS.setText(""); // Limpiar el resultado en caso de error
 		}
+		
+		/*
+		 * // Preguntamos al usuario si desea continuar int respuesta =
+		 * JOptionPane.showConfirmDialog(null, "¿Desea continuar usando el programa?",
+		 * "Continuar o Finalizar", JOptionPane.YES_NO_CANCEL_OPTION);
+		 * 
+		 * if (respuesta == JOptionPane.YES_OPTION) { // Regresar al menú principal
+		 * (puede implementarse según tu estructura) JOptionPane.showMessageDialog(null,
+		 * "Volviendo al Menú Principal..."); } else {
+		 * JOptionPane.showMessageDialog(null, "Programa Finalizado."); System.exit(0);
+		 * }
+		 */
+        
 	}
 
 	private static void defaultOtrasConversiones() {
@@ -976,4 +981,48 @@ public class Conversor extends JFrame {
 		conversorLogitud(cantidadLonOrigen, lonOrigen, lonDestino, textField_Disa);
 
 	}
+	
+    private static double obtenerCantidad() {
+        double cantidad = 0;
+
+        while (true) {
+            try {
+                String cantidadStr = JOptionPane.showInputDialog(null, "Ingrese la cantidad a convertir:",
+                        "Ingresar Cantidad", JOptionPane.QUESTION_MESSAGE);
+
+                // Si el usuario cancela, se sale del bucle y se devuelve 0
+                if (cantidadStr == null) {
+                    break;
+                }
+
+                cantidad = Double.parseDouble(cantidadStr);
+
+                // Validar que la cantidad sea mayor a cero
+                if (cantidad <= 0) {
+                    JOptionPane.showMessageDialog(null, "Por favor ingrese un valor válido mayor a cero.",
+                            "Error de Entrada", JOptionPane.ERROR_MESSAGE);
+                } else {
+                    // La cantidad es válida, salir del bucle
+                    break;
+                }
+            } catch (NumberFormatException e) {
+                JOptionPane.showMessageDialog(null, "Por favor ingrese un valor numérico válido.",
+                        "Error de Entrada", JOptionPane.ERROR_MESSAGE);
+            }
+        }
+
+        return cantidad;
+    }
+	
+	   // Método para mostrar el cuadro de diálogo de confirmación de salida
+    private void confirmarSalida() {
+        int respuesta = JOptionPane.showConfirmDialog(this,
+                "¿Estás seguro de que deseas salir?", "Confirmar Salida",
+                JOptionPane.YES_NO_OPTION);
+
+        if (respuesta == JOptionPane.YES_OPTION) {
+            System.exit(0); // Cierra la aplicación
+        }
+    }
+    
 }
